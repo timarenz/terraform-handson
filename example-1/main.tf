@@ -8,7 +8,3 @@ resource "aws_instance" "example" {
   ami           = "ami-7c412f13" # Ubuntu 16.04 LTS
   instance_type = "t2.micro"
 }
-
-resource "aws_eip" "ip" {
-  instance = "${aws_instance.example.id}"
-}
