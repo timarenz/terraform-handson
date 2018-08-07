@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-331d3bd8" # Ubuntu 18.04
+  ami           = "ami-349fb84c" # Ubuntu 18.04
   instance_type = "t2.micro"
 }
 
